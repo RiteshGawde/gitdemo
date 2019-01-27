@@ -1,0 +1,24 @@
+
+
+    3  netstat -tulpn
+    4  ps -ef |grep  1256
+    5  ps -ef | grep 1256
+    6  ps -ef
+    7   vi /etc/ssh/sshd_config
+    8  service sshd restart
+    9  ps -ef| grep sshd
+   10  passwd
+   11  ll etc/yum.repos.d/
+   12  ll /etc/yum.repos.d/
+   13  cat redhat-rhui.repo
+   14  yum install httpd -y
+   15  rpm -qa | grep httpd
+   16  yum insatll git -y
+   17  yum install git -y
+   18  cd /opt
+   19  mkdir -p /opt/gitdemo
+   20  cd gitdemo
+   21  git init
+   22  vi linuxcmd.txt
+   23  history
+
